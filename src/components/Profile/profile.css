@@ -1,0 +1,45 @@
+.content {
+    grid-area: content;
+    margin-left: 10px;
+  }
+    .content__picture-block {
+      height: 200px;
+      width: 100%;
+      margin-bottom: 10px;
+      background-image: url("./social-background.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+    }
+    .content__personal-info {
+      display: flex;
+      align-items: center;
+    }
+      .content__personal-photo {
+        width: 150px;
+        margin-right: 30px;
+      }
+      /* .content__info {
+        
+      } */
+        .info__name {
+          font-size: 24px;
+          font-weight: 500;
+          color: #323232;
+          display: block;
+          margin-bottom: 30px;
+        }
+        .info__items {
+          list-style: none;
+          display: block;
+          margin-bottom: 5px;
+        }
+          .info__label {
+            color: #646464;
+            display: inline-block;
+            margin-right: 10px;
+          }
+          .info__site a {
+            text-decoration: none;
+            color: rgb(42, 141, 255);
+          }

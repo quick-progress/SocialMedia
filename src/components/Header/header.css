@@ -1,0 +1,18 @@
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: rgb(52, 69, 107);
+    color: #dfe9f5;
+  }
+    .header__logo {
+      height: 45px;
+      width: 45px;
+    }
+    .header__site-name {
+      font-size: 22px;
+      font-family: sans-serif;
+      margin-left: 20px;
+    }
